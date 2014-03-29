@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
+# Use Postgresql for production and test (on Heroku), and sqlite3 for development (local)
 group :production, :test do
 gem 'pg'
 end
