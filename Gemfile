@@ -4,9 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 
 # Use Postgresql for production and test (on Heroku), and sqlite3 for development (local)
-#group :production, :test do
-#gem 'pg'
-#end
+group :production do
+gem 'pg'
+end
 group :development do
 gem 'sqlite3-ruby'
 end
